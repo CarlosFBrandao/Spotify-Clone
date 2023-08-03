@@ -4,6 +4,16 @@ $cor-fundo: #fbfef4;
 $cor-fundo2: $branco;
 $cor-primaria: #37ab00;
 
+$preto-transparent-03: #00000008;
 $preto-transparent-30: #0000004d;
 $preto-transparent-20: #00000033;
+$preto-transparent-70: rgba(0,0,0,0.7);
+
+$h-spotify-logo: 120px;
+$h-menu-opcoes: 150px;
+$m-entre-menus: 10px;
+$h-footer-user: 70px;
+
+$h-desconsiderar: calc($h-spotify-logo + $h-menu-opcoes + $h-footer-user);
+
 

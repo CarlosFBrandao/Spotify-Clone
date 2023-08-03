@@ -1,0 +1,14 @@
+<span class="titulo-bg mt-4">
+    {{titulo}}
+</span>
+<div class="card p-20">
+    <div class="artista flex">
+        <span class="titulo-bg">
+            {{topArtista.nome}}
+            <br>
+            <span class="artistas">{{topArtista.artista}}</span>
+        </span>
+    </div>
+    <div class="image" [style.background-image]="'url('+ topArtista.imagemUrl +')'">
+    </div>
+</div>
