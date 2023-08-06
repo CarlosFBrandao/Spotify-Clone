@@ -15,7 +15,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let musica of musicas" (click)="executarMusica">
+            <tr *ngFor="let musica of musicas" (click)="executarMusica(musica)">
                 <td>
                     <fa-icon class="play" [icon]="playIcone"></fa-icon>
                 </td>
@@ -26,7 +26,6 @@
             </tr>
         </tbody>
     </table>
-
 </div>
 
 <app-painel-direito class="painel-direito">
