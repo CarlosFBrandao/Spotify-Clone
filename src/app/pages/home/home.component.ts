@@ -17,6 +17,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   playIcone = faPlay;
   musicaAtual: IMusica = newMusica();
   subs: Subscription[] = [];
+  teste: string;
 
   constructor(
     private readonly spotifyService: SpotifyService,
